@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,700&family=Poppins:ital,wght@0,300;1,100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", "sans-serif";
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/c31c3123-3df7-4359-8b8c-475bd2d9925d/15feb590-3d73-45e9-9e4a-2eb334c83921/IN-en-20231225-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(100vw, 1000px);
+}
+
+.main .box {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    width: 77vw;
+    height: 94px;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+nav img {
+    width: 146px;
+    position: relative;
+    z-index: 10;
+}
+
+nav .nav-buttons {
+    z-index: 10;
+    gap: 10px;
+}
+
+.sign-btn {
+    background-color: rgb(229, 9, 20);
+    border: 1px solid rgb(229, 9, 20);
+    border-radius: 3.5px;
+    color: white;
+    font-size: 11pt;
+    padding: 6px 12px;
+}
+
+.lang-btn {
+    background: rgba(23, 23, 23, 0.7);
+    color: white;
+    padding: 6px 24px;
+    border: 1px solid gray;
+    margin-right: 10px;
+    font-size: 15px;
+    border-radius: 3.5px;
+}
+
+.hero {
+    height: calc(100% - 140px);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    gap: 15px;
+    padding: 137px;
+}
+
+.hero> :nth-child(1),
+.hero> :nth-child(2) {
+    font-family: "DM Sans", "Poppins";
+    font-size: 58px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-size: 24px;
+    font-family: "Poppins";
+    text-align: center;
+    font-weight: 500;
+}
+
+.hero> :nth-child(4),
+.details {
+    font-size: 20px;
+    font-family: "Poppins";
+    text-align: center;
+    font-weight: 500;
+}
+
+.get-btn {
+    background-color: rgb(229, 9, 20);
+    border-radius: 3.5px;
+    color: white;
+    font-size: 23px;
+    font-weight: 500;
+    padding: 9px 26px;
+    border: 1px solid rgb(229, 9, 20);
+}
+
+.reg input {
+    background: rgba(23, 23, 23, 0.7);
+    color: white;
+    padding: 14px 201px 12px 19px;
+    border: 1px solid gray;
+    font-size: 15px;
+    border-radius: 3.5px;
+}
+
+.reg {
+    text-align: center;
+}
+
+.separation {
+    height: 8px;
+    background-color: #232323;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 74vw;
+    margin: auto;
+    height: 76vh;
+}
+
+.first-text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 14px;
+}
+
+.first-text> :nth-child(1) {
+    font-family: 'DM Sans';
+    font-size: 54px;
+}
+
+.first-text> :nth-child(2) {
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.first-img {
+    position: relative;
+}
+
+.first-img img {
+    width: 555px;
+    z-index: 10;
+    position: relative;
+
+}
+
+.first-img video {
+    position: absolute;
+    top: 75px;
+    right: 25px;
+}
+
+.third-img video {
+    position: absolute;
+    top: 32px;
+    right: 100px;
+    width: 24vw;
+}
+
+.faq {
+    color: white;
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 54px;
+    font-family: 'DM sans', 'Poppins';
+    padding: 44px 0px 0px 0px;
+}
+
+.faqbox {
+    background-color: rgb(45, 45, 45);
+    padding: 26px;
+    width: 72vw;
+    margin: 10px auto;
+    font-size: 22px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.faqbox:hover {
+    background-color: #414141;
+    transition: all 0.25s ease-out;
+    cursor: pointer;
+}
+
+.details {
+    gap: 23px;
+    padding: 34px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    height: 44vh;
+    max-width: 76vw;
+    margin: auto;
+}
+
+.questions {
+    color: rgba(255, 255, 255, 0.7);
+    margin: 68px 0px 20px 0px;
+
+}
+
+footer .items {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.links a {
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 16px;
+}
+
+
+@media screen and (max-width: 1100px) {
+    .first {
+        flex-wrap: wrap;
+        gap: 10px;
+        height: auto;
+        padding: 34px;
+    }
+
+    .first .first-text {
+        text-align: center;
+        justify-content: space-evenly;
+    }
+
+    .first-text> :nth-child(1) {
+        font-size: 47px;
+    }
+
+    .first-text> :nth-child(2) {
+        font-size: 20px;
+    }
+
+    .first-img img {
+        width: 333px;
+    }
+
+    .first-img video {
+        width: 263px;
+        top: 39px;
+    }
+
+    .third-img video {
+        top: 7%;
+        width: 204px;
+        right: 19%;
+    }
+
+    .faq h2 {
+        font-size: 40px;
+    }
+
+    footer .items {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .hero> :nth-child(1),
+    .hero> :nth-child(2) {
+        font-size: 32px;
+    }
+
+    .hero> :nth-child(3) {
+        font-size: 18px;
+    }
+
+    .hero> :nth-child(4) {
+        font-size: 18px;
+    }
+
+    .reg input {
+        padding: 14px 25px 12px 19px;
+    }
+
+    .hero {
+        padding: 34px;
+    }
+
+    .reg {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 13px;
+    }
+
+    .get-btn {
+        font-size: 17px;
+
+    }
+
+    .details {
+        font-size: 18px;
+    }
+
+    nav {
+        width: 90vw;
+    }
+
+    nav img {
+        width: 89px;
+    }
+
+    .sign-btn,
+    .lang-btn {
+        font-size: 10pt;
+    }
+}
