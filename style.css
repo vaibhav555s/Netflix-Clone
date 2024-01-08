@@ -283,7 +283,7 @@ footer .items {
     }
 
     .faq h2 {
-        font-size: 40px;
+        font-size: 35px;
     }
 
     footer .items {
@@ -340,4 +340,11 @@ footer .items {
     .lang-btn {
         font-size: 10pt;
     }
+    
+element.style {
+}
+
+.faqbox {
+    padding: 34px;
+    font-size: 19px;
 }
